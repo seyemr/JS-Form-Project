@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <div class="headerWrapper">
+      <div>
+        <a href="./index.html">Home</a>
+      </div>
+    </div>
+    <div class="mainContainer">
+      <div id="notLogin" class="loginWrapper">
+        <div class="formWrapper">
+          <form id="loginForm">
+            <h3 class="formTitle">LOGIN</h3>
+            <div class="formRow">
+              <label id="usernameLabel" for="username">* Username</label>
+              <input type="text" id="username" placeholder="Type your username..." />
+            </div>
+            <div class="formRow">
+              <label id="passwordLabel" for="password">* Password</label>
+              <input
+                type="password"
+                id="password"
+                placeholder="Type your password..." />
+            </div>
+            <div class="formBtnWrapper">
+              <button id="submitBtn" type="submit" class="formBtn">
+                SUBMIT
+              </button>
+            </div>
+          </form>
+        </div>
+      </div>
+      <div id="isLogin" class="listFormsWrapper">
+        <!-- <div class="cardWrapper">
+          <div class="cardRowWrapper">
+            <span class="cardTitle">Name :</span>
+            <span>deneme</span>
+          </div>
+          <div class="cardRowWrapper">
+            <span class="cardTitle">Surname :</span>
+            <span>deneme</span>
+          </div>
+          <div class="cardRowWrapper">
+            <span class="cardTitle">Email</span>
+            <span>deneme@deneme.com</span>
+          </div>
+          <div class="cardRowWrapper">
+            <span class="cardTitle">Message</span>
+            <span>deneme deneme</span>
+          </div>
+        </div> -->
+      </div>
+    </div>
+
+    <script src="./forms.js"></script>
+  </body>
+</html>

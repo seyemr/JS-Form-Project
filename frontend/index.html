@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>JS Form Project With Real API</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="headerWrapper">
+        <div>
+            <a href="forms.html">Read Form</a>
+        </div>
+    </div>
+    <div class="formWrapper">
+        <form id="myForm">
+            <h3 class="formTitle">İLETİŞİM</h3>
+            <div class="formRow">
+                <label id="nameLabel" for="name">* İsim:</label>
+                <input type="text" id="name" placeholder="isminizi yazınız...">
+            </div>
+            <div class="formRow">
+                <label id="surnameLabel" for="surname">* Soyisim:</label>
+                <input type="text" id="surname" placeholder="soyisminizi yazınız...">
+            </div>
+            <div class="formRow">
+                <label id="emailLabel" for="email">* Email:</label>
+                <input type="email" id="email" placeholder="e-mail yazınız...">
+            </div>
+            <div class="formRow textAreaWrapper">
+                <label id="messageLabel" for="message">* Mesaj</label>
+                <textarea name="" id="message" placeholder="mesajınızı yazınız..." cols="30" rows="10"></textarea>
+            </div>
+            <div class="formBtnWrapper">
+                <button id="submitBtn" type="submit" class="formBtn">GÖNDER</button>
+            </div>
+        </form>
+    </div>
+    <div id="modal" class="modalWrapper">
+        <div class="modalContentWrapper">
+            <p id="modalMessage"></p>
+        </div>
+    </div>
+    <script src="main.js"></script>
+</body>
+</html>
